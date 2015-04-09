@@ -1,0 +1,15 @@
+C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Windows\bin\Debug\ReverseMap\resources.pri
+C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Windows\bin\Debug\AppxManifest.xml
+C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Windows\bin\Debug\XingPlan.Windows.build.appxrecipe
+C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Windows\bld\Debug\priconfig.xml
+C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Windows\bld\Debug\priconfig.xml.intermediate
+C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Windows\bld\Debug\layout.resfiles
+C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Windows\bld\Debug\layout.resfiles.intermediate
+C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Windows\bld\Debug\resources.resfiles
+C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Windows\bld\Debug\resources.resfiles.intermediate
+C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Windows\bld\Debug\pri.resfiles
+C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Windows\bld\Debug\pri.resfiles.intermediate
+C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Windows\bld\Debug\qualifiers.txt
+C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Windows\bld\Debug\qualifiers.txt.intermediate
+C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Windows\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Windows\bld\Debug\ProjectArchitectures.txt

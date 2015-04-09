@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>0334123f-6f63-4d34-ad86-0fdde0cc3090</SharedGUID>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)js\moment.min.js" />
+    <Content Include="$(MSBuildThisFileDirectory)js\navigator.js" />
+    <Content Include="$(MSBuildThisFileDirectory)js\default.js" />
+    <Content Include="$(MSBuildThisFileDirectory)js\pikaday.css" />
+    <Content Include="$(MSBuildThisFileDirectory)js\pikaday.js" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\home\home.js" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\home\home.html" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,71 @@
+﻿/*
+	Generic Stuff
+*/
+.homepage section[role=main] {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+input[type=text] {
+	width:99%;
+	position:relative;
+	display:block;
+	box-sizing:border-box;
+}
+input[type=radio] {
+	margin-left: 0;
+}
+button {
+	min-width: 0;
+}
+
+/*
+	Page Formatting
+*/
+.ToolBar {
+	height: 100%;
+	float: left;
+	background: blue;
+	width: 75px;
+	text-align:center;
+}
+.MainContent {
+	height: 100%;
+	width: 100%;
+	padding-top:5px;
+	background: green;
+}
+.Details {
+	height: 100%;
+	float: right;
+	background: red;
+	width:35%;
+}
+
+/*
+	Main Content
+*/
+#TaskAdder {
+	width: calc(65% - 85px);
+	left:5px;
+}
+
+/*
+	ToolBar
+*/
+.ToolBar input {
+	text-align:center;
+	display:inline-block;
+}
+	/*margin-left: 14px;*/
+}/*
+#Dat3A {
+	display: none;
+	position: absolute;
+	background:black;
+	left:195px;
+	padding:5px;
+}
+#Dat3X {
+	width: 30px;
+	min-width:30px;
+}*/
