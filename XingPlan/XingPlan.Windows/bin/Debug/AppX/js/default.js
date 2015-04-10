@@ -55,10 +55,10 @@ function alert(message) {
 	msgBox.showAsync();
 }
 
-function Task(name, due, should, className) {
+function Task(name, due, className) {
 	this.name = name;
 	this.dueDate = due;
-	this.shouldDate = should;
+	//this.shouldDate = should;
 	this.className = className;
 	//TODO: Implement Subtasks
 }

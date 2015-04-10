@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>homePage</title>
+	
+	<link href="/css/default.css" rel="stylesheet" />
+	<link href="/pages/list/list.css" rel="stylesheet" />
+	<link href="/js/pikaday.css" rel="stylesheet" />
+	<link href="/js/pikadaytheme.css" rel="stylesheet" />
+	<script src="/pages/list/list.js"></script>
+	<script src="/js/moment.min.js"></script>
+	<script src="/js/pikaday.js"></script>
+</head>
+<body>
+	<!-- The content that will be loaded and displayed. -->
+	<div class="flow fragment">
+		<header aria-label="Header content" role="banner">
+			<button class="back-button" data-win-control="WinJS.UI.BackButton"></button>
+		    <h1 class="titlearea win-type-ellipsis">
+		        <span class="pagetitle">XingPlan</span>
+		    </h1>
+		</header>
+		<section aria-label="Main content" role="main">
+			<div class="ToolBar">
+				<h2>Due</h2>
+				<label for="Dat1">1 Day</label><br />
+				<input type="radio" id="Dat1" name="Date" /><br />
+				<label for="Dat2">2 Days</label><br />
+				<input type="radio" id="Dat2" name="Date" /><br />
+				<input type="text" id="Dat3" name="Date" /><br />
+				
+				<hr />
+
+				<h2>Class</h2>
+				<div id="Class1Div">
+					<label for="Class1">Civics</label><br />
+					<input type="radio" id="Class1" name="Class" /><br />
+				</div>
+				<div id="Class2Div">
+					<label for="Class2">Calc</label><br />
+					<input type="radio" id="Class2" name="Class" /><br />
+				</div>
+				<div id="Class3Div">
+					<label for="Class3">French</label><br />
+					<input type="radio" id="Class3" name="Class" /><br />
+				</div>
+				<div id="Class4Div">
+					<label for="Class4">HuGe</label><br />
+					<input type="radio" id="Class4" name="Class" /><br />
+				</div>
+				<div id="Class5Div">
+					<label for="Class5">Chem</label><br />
+					<input type="radio" id="Class5" name="Class" /><br />
+				</div>
+				<hr />
+
+				<input type="checkbox" id="Optional" name="Optional" /><br />
+				<input type="radio" id="Quiz" name="Formal" /><br />
+				<input type="radio" id="Test" name="Formal" /><br />
+			</div>
+			<div class="Details">
+				<h2>Task Name Here</h2>
+				
+				<h3>Due Date</h3>
+				<input type="text" id="CDue" /><br />
+
+				<h3>Should Do Date</h3>
+				<input type="text" id="CShould" /><br />
+
+				<h3>Class</h3>
+				<select name="CClass">
+					<option>Civics and Economics</option>
+					<option>AP Calculus</option>
+					<option>French 3</option>
+					<option>AP Human Geography</option>
+					<option>Chemistry</option>
+				</select>
+			</div>
+			<div class="MainContent">
+				<input type="text" id="TaskAdder"/>
+				<ul id="MainList">
+
+				</ul>
+			</div>
+		</section>
+	</div>
+	
+
+</body>
+</html>

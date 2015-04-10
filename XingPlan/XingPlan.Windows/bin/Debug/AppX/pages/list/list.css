@@ -1,0 +1,162 @@
+﻿/*
+	Generic Stuff
+*/
+.homepage section[role=main] {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+input[type=text] {
+	width:99%;
+	position:relative;
+	display:block;
+	box-sizing:border-box;
+}
+input[type=radio] {
+	margin-left: 0;
+}
+button {
+	min-width: 0;
+}
+
+/*
+	Page Formatting
+*/
+.ToolBar {
+	height: 100%;
+	float: left;
+	width: 75px;
+	text-align:center;
+	border-right-style:solid;
+	border-right-color:white;
+	border-right-width:5px;
+	padding-right:1px;
+}
+.MainContent {
+	height: 100%;
+	width: 100%;
+	padding-top:5px;
+	padding-left:80px;
+}
+.Details {
+	height: 100%;
+	float: right;
+	width:35%;
+	padding-left:1px;
+	border-left-style:solid;
+	border-left-color:white;
+	border-left-width:5px;
+}
+
+/*
+	Main Content
+*/
+#TaskAdder {
+	width: calc(65% - 96px);
+	left:5px;
+}
+
+#MainList {
+	width: calc(65% - 96px);
+	padding-left:5px;
+}
+#MainList li {
+	display: block;
+	padding: 10px;
+}
+	#MainList li:nth-child(odd) {
+		background: grey;
+	}
+	#MainList li:nth-child(even) {
+		background: lightgrey;
+		color:black;
+	}
+
+/*
+	ToolBar
+*/
+.ToolBar input {
+	text-align:center;
+	display:inline-block;
+}
+	.ToolBar input[type=radio] {
+		
+	}
+
+#Class1Div {
+	background: orange;
+}
+#Class2Div {
+	background: blue;
+}
+#Class3Div {
+	background: black;
+}
+#Class4Div {
+	background: OrangeRed;
+}
+#Class5Div {
+	background: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+	IDK What Any Of This Stuff Is, But Hopefully It Works
+*/
+.flow section {
+	margin: auto 120px;
+}
+
+.phone .flow .page-section {
+	margin: auto 24px;
+}
+
+.phone .flow .page-header .titlearea {
+	-ms-grid-column: 1;
+	margin-top: 37px;
+	margin-left: 24px;
+	font-size: 28pt;
+	width: calc(100vw - 20px);
+}
+
+.phone .flow .back-button {
+	display: none;
+}
+
+.fragment {
+	-ms-grid-columns: 1fr;
+	-ms-grid-rows: 128px 1fr;
+	display: -ms-grid;
+	height: 100%;
+	width: 100%;
+}
+
+	.fragment section[role=main] {
+		-ms-grid-row: 2;
+		height: 100%;
+	}
+	
+
+.HolderDiv {
+	position: relative;
+	margin:0;
+	padding:0;
+}

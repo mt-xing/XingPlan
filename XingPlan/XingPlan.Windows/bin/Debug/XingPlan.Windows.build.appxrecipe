@@ -22,14 +22,23 @@
     <AppxPackagedFile Include="C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Windows\pages\home\home.css">
       <PackagePath>pages\home\home.css</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Windows\pages\list\list.css">
+      <PackagePath>pages\list\list.css</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Shared\js\pikaday.css">
       <PackagePath>js\pikaday.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Shared\js\pikadaytheme.css">
+      <PackagePath>js\pikadaytheme.css</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Windows\default.html">
       <PackagePath>default.html</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Shared\pages\home\home.html">
       <PackagePath>pages\home\home.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Shared\pages\list\list.html">
+      <PackagePath>pages\list\list.html</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Windows\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
@@ -61,6 +70,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Shared\pages\home\home.js">
       <PackagePath>pages\home\home.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Shared\pages\list\list.js">
+      <PackagePath>pages\list\list.js</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Windows\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>

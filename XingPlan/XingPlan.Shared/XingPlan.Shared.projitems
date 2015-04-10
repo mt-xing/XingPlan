@@ -11,7 +11,10 @@
     <Content Include="$(MSBuildThisFileDirectory)js\default.js" />
     <Content Include="$(MSBuildThisFileDirectory)js\pikaday.css" />
     <Content Include="$(MSBuildThisFileDirectory)js\pikaday.js" />
-    <Content Include="$(MSBuildThisFileDirectory)pages\home\home.js" />
+    <Content Include="$(MSBuildThisFileDirectory)js\pikadaytheme.css" />
     <Content Include="$(MSBuildThisFileDirectory)pages\home\home.html" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\home\home.js" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\list\list.html" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\list\list.js" />
   </ItemGroup>
 </Project>

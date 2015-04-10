@@ -1,51 +1,49 @@
 ﻿(function () {
-    "use strict";
+	"use strict";
+	
+	WinJS.UI.Pages.define("/pages/home/home.html", {
+		// This function is called whenever a user navigates to this page. It
+		// populates the page elements with the app's data.
+		ready: function (element, options) {
+			// TODO: Initialize the page here.
+			WinJS.Utilities.query("a").listen("click", this.linkClickEventHandler, false);
+			WinJS.Utilities.query("a").listen("mousedown", this.linkDownHandler, false);
+			WinJS.Utilities.query("a").listen("pointerout", this.linkUpHandler, false);
+		},
 
-    WinJS.UI.Pages.define("/pages/home/home.html", {
-        // This function is called whenever a user navigates to this page. It
-        // populates the page elements with the app's data.
-        ready: function (element, options) {
-        	// TODO: Initialize the page here.
-        	document.getElementById("TaskAdder").addEventListener("keydown", function (e) {
-        		if (e.keyCode == WinJS.Utilities.Key.enter) {
-        			NewTask();
-        		}
-        	});
+		linkClickEventHandler: function (eventInfo) {
+			eventInfo.preventDefault();
+			var link = eventInfo.target;
+			if (link.className != "ALink") {
+				link = link.parentElement;
+			}
+			WinJS.UI.Animation.pointerUp(link).done(
+				function completed() {
+					if (link.getAttribute("data-round") == "false") {
+						WinJS.Navigation.navigate(link.href, { isRound: false, isReal: false });
+					} else {
+						WinJS.Navigation.navigate(link.href, { isReal: false, isRound: true });
+					}
+				});
 
-        	var CheckIterators = document.querySelectorAll("input[type='radio']");
-        	for (var i = 0; i < CheckIterators.length; i++) {
-        		CheckIterators[i].addEventListener("mousedown", function (e) {
-        			e.preventDefault();
-        			if (e.currentTarget.checked) {
-        				e.currentTarget.checked = false;
-        				if (e.currentTarget.id == "Dat1" || e.currentTarget.id == "Dat2") {
-        					document.getElementById("Dat3").value = "";
-        				}
-        			} else {
-        				e.currentTarget.checked = true;
-        				if (e.currentTarget.id == "Dat1") {
-        					document.getElementById("Dat3").value = moment().add(1, 'days').format("MM/DD");
-        				} else if (e.currentTarget.id == "Dat2") {
-        					document.getElementById("Dat3").value = moment().add(2, 'days').format("MM/DD");
-        				}
-        			}
-        			
-        		});
-        		CheckIterators[i].addEventListener("click", function (e) {
-        			e.preventDefault();
-        		});
-        	}
-        	var picker = new Pikaday({ field: document.getElementById('Dat3'), theme: 'dark-theme', format: "MM/DD" });
-			//minDate: new Date()
-        }
-    });
+		},
+		linkDownHandler: function (eventInfo) {
+			eventInfo.preventDefault();
+			var link = eventInfo.target;
+			if (link.className != "ALink") {
+				link = link.parentElement;
+			}
+			WinJS.UI.Animation.pointerDown(link).done();
+		},
+		linkUpHandler: function (eventInfo) {
+			eventInfo.preventDefault();
+			var link = eventInfo.target;
+			if (link.className != "ALink") {
+				link = link.parentElement;
+			}
+			WinJS.UI.Animation.pointerUp(link).done();
+		}
+	});
+	
 
-    function NewTask() {
-    	if (document.getElementById("TaskAdder").value == "") {
-    		return;
-    	}
-
-
-    	
-    }
 })();

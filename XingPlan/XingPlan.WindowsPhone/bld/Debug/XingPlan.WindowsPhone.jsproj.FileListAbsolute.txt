@@ -1,0 +1,15 @@
+C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.WindowsPhone\bin\Debug\ReverseMap\resources.pri
+C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.WindowsPhone\bin\Debug\AppxManifest.xml
+C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.WindowsPhone\bin\Debug\XingPlan.WindowsPhone.build.appxrecipe
+C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.WindowsPhone\bld\Debug\priconfig.xml
+C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.WindowsPhone\bld\Debug\priconfig.xml.intermediate
+C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.WindowsPhone\bld\Debug\layout.resfiles
+C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.WindowsPhone\bld\Debug\layout.resfiles.intermediate
+C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.WindowsPhone\bld\Debug\resources.resfiles
+C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.WindowsPhone\bld\Debug\resources.resfiles.intermediate
+C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.WindowsPhone\bld\Debug\pri.resfiles
+C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.WindowsPhone\bld\Debug\pri.resfiles.intermediate
+C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.WindowsPhone\bld\Debug\qualifiers.txt
+C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.WindowsPhone\bld\Debug\qualifiers.txt.intermediate
+C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.WindowsPhone\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.WindowsPhone\bld\Debug\ProjectArchitectures.txt
