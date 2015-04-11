@@ -4,4 +4,45 @@
 .homepage section[role=main] {
     margin-left: 120px;
     margin-right: 120px;
+	display:-ms-grid;
+	-ms-grid-columns:2fr 1fr;
+	-ms-grid-rows:3fr 2fr;
+}
+
+/*
+	Big Buttons
+*/
+.ALink {
+	display: block;
+	text-align:center;
+	background:black;
+	color:white;
+	margin:5px;
+}
+	.ALink:hover {
+		background: grey;
+		color:white;
+	}
+	.ALink img {
+		display: block;
+		max-width: 200px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+#MainGrid {
+	-ms-grid-column: 1;
+	-ms-grid-row: 1;
+	padding-top:80px;
+}
+#MidGrid {
+	-ms-grid-column: 1;
+	-ms-grid-row: 2;
+	padding-top:12px;
+}
+#SmallGrid {
+	-ms-grid-column: 2;
+	-ms-grid-row: 1;
+	-ms-grid-row-span: 2;
+	padding-top:210px;
 }

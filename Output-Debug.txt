@@ -1,0 +1,2 @@
+﻿'WWAHost.exe' (Script): Loaded 'Script Code (MSAppHost/2.0)'. 
+The program '[7864] WWAHost.exe' has exited with code -1 (0xffffffff).

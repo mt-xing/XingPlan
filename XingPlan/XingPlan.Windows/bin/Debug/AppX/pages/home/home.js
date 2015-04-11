@@ -9,6 +9,13 @@
 			WinJS.Utilities.query("a").listen("click", this.linkClickEventHandler, false);
 			WinJS.Utilities.query("a").listen("mousedown", this.linkDownHandler, false);
 			WinJS.Utilities.query("a").listen("pointerout", this.linkUpHandler, false);
+
+			var TempDel = document.getElementsByClassName("pika-single");
+
+			//alert(TempDel.length); Quickly clears away leftover calendar pickers
+			for (var i = TempDel.length - 1; i >= 0 ; i--) {
+				TempDel[i].parentNode.removeChild(TempDel[i]);
+			}
 		},
 
 		linkClickEventHandler: function (eventInfo) {
@@ -19,11 +26,7 @@
 			}
 			WinJS.UI.Animation.pointerUp(link).done(
 				function completed() {
-					if (link.getAttribute("data-round") == "false") {
-						WinJS.Navigation.navigate(link.href, { isRound: false, isReal: false });
-					} else {
-						WinJS.Navigation.navigate(link.href, { isReal: false, isRound: true });
-					}
+					WinJS.Navigation.navigate(link.href);
 				});
 
 		},

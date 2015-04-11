@@ -57,8 +57,15 @@ function alert(message) {
 
 function Task(name, due, className) {
 	this.name = name;
-	this.dueDate = due;
-	//this.shouldDate = should;
-	this.className = className;
+	this.dueDate = moment(due, "MM/DD");
+	if (moment(this.dueDate).subtract(1, "d").isBefore(moment())) {
+		this.shouldDate = moment();
+	} else {
+		this.shouldDate = moment(this.dueDate).subtract(1, "d");
+	}
+	
+	this.className = Number(className.substr(5)) - 1;
+	this.pendDelete = false;
+
 	//TODO: Implement Subtasks
 }

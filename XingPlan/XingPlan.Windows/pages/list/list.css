@@ -98,8 +98,12 @@ button {
 	background: red;
 }
 
-
-
+/*
+	More Info
+*/
+#CID {
+	display: none;
+}
 
 
 

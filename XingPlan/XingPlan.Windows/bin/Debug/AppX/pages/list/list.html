@@ -22,6 +22,7 @@
 		    </h1>
 		</header>
 		<section aria-label="Main content" role="main">
+			<!--Toolbar-->
 			<div class="ToolBar">
 				<h2>Due</h2>
 				<label for="Dat1">1 Day</label><br />
@@ -59,8 +60,9 @@
 				<input type="radio" id="Quiz" name="Formal" /><br />
 				<input type="radio" id="Test" name="Formal" /><br />
 			</div>
+			<!--Detail Box-->
 			<div class="Details">
-				<h2>Task Name Here</h2>
+				<h2 id="CName">Task Name Here</h2>
 				
 				<h3>Due Date</h3>
 				<input type="text" id="CDue" /><br />
@@ -69,14 +71,17 @@
 				<input type="text" id="CShould" /><br />
 
 				<h3>Class</h3>
-				<select name="CClass">
-					<option>Civics and Economics</option>
-					<option>AP Calculus</option>
-					<option>French 3</option>
-					<option>AP Human Geography</option>
-					<option>Chemistry</option>
+				<select name="CClass" id="CClass">
+					<option value="0">Civics and Economics</option>
+					<option value="1">AP Calculus</option>
+					<option value="2">French 3</option>
+					<option value="3">AP Human Geography</option>
+					<option value="4">Chemistry</option>
 				</select>
+
+				<span id="CID"></span>
 			</div>
+			<!--Main Window-->
 			<div class="MainContent">
 				<input type="text" id="TaskAdder"/>
 				<ul id="MainList">
