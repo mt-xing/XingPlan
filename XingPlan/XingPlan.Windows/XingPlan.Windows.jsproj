@@ -66,6 +66,7 @@
     <Content Include="images\smalllogo.png" />
     <Content Include="images\splashscreen.png" />
     <Content Include="images\storelogo.png" />
+    <Content Include="pages\today\today.css" />
     <None Include="XingPlan_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
