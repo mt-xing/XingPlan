@@ -98,7 +98,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Shared\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2015-04-11T17:32:21.184</Modified>
+      <Modified>2015-04-12T02:39:47.917</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Shared\js\pikaday.js">
       <PackagePath>js\pikaday.js</PackagePath>
@@ -110,7 +110,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Shared\pages\list\list.js">
       <PackagePath>pages\list\list.js</PackagePath>
-      <Modified>2015-04-11T18:36:46.505</Modified>
+      <Modified>2015-04-12T02:40:02.582</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Windows\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>

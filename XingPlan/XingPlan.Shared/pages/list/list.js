@@ -78,10 +78,10 @@
 		//Adds it to the list
 		AddList(AllTasks[AllTasks.length - 1]);
 		
-		
+		SaveState();
 	}
 
-	//Messing With the Arrays
+	//Messing With the Master List
 	function AddList(e) {
 		var task = document.createElement("LI");
 		var checkBox = document.createElement("INPUT");
@@ -101,6 +101,7 @@
 			return;
 		}
 		AllTasks.splice(getElementIndex(e), 1);
+		SaveState();
 		e.parentElement.removeChild(e);
 	}
 		function CheckRemoveList(e) {
@@ -144,9 +145,15 @@
 		} else if (el.id == "CClass") {
 			AllTasks[cid].className = el.value;
 		}
+		SaveState();
 	}
-
-
+	
+	function SaveState() {
+		var appData = Windows.Storage.ApplicationData.current;
+		var roamingSettings = appData.roamingSettings;
+		roamingSettings.values["AllTasks"] = JSON.stringify(AllTasks);
+		//alert(JSON.stringify(AllTasks));
+	}
 
 
 	/*

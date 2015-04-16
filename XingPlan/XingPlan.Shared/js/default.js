@@ -22,17 +22,27 @@ var AllTasks = new Array();
                 // Restore application state here.
             }
 
+            
+
             nav.history = app.sessionState.history || {};
             nav.history.current.initialPlaceholder = true;
 
             // Optimize the load of the application and while the splash screen is shown, execute high priority scheduled work.
             ui.disableAnimations();
             var p = ui.processAll().then(function () {
+
+				//Loads tasks from roamingSettings
+            	var AllData = Windows.Storage.ApplicationData.current.roamingSettings.values["AllTasks"];
+            	if (AllData) {
+            		AllTasks = JSON.parse(AllData);
+            	}
+
                 return nav.navigate(nav.location || Application.navigator.home, nav.state);
             }).then(function () {
                 return sched.requestDrain(sched.Priority.aboveNormal + 1);
             }).then(function () {
-                ui.enableAnimations();
+            	ui.enableAnimations();
+            	
             });
 
             args.setPromise(p);
