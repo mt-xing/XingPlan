@@ -20,7 +20,7 @@
     <AppXManifest Include="C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-04-11T16:56:13.105</Modified>
+      <Modified>2015-04-16T20:33:10.203</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -36,6 +36,10 @@
       <PackagePath>pages\list\list.css</PackagePath>
       <Modified>2015-04-11T18:33:44.081</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Windows\pages\today\today.css">
+      <PackagePath>pages\today\today.css</PackagePath>
+      <Modified>2015-04-16T20:32:19.637</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Shared\js\pikaday.css">
       <PackagePath>js\pikaday.css</PackagePath>
       <Modified>2015-03-17T12:30:58.000</Modified>
@@ -44,17 +48,17 @@
       <PackagePath>js\pikadaytheme.css</PackagePath>
       <Modified>2015-03-17T12:30:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Windows\images\Configure alt 3.png">
-      <PackagePath>images\Configure alt 3.png</PackagePath>
-      <Modified>2012-11-03T03:17:03.090</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Windows\images\History.png">
-      <PackagePath>images\History.png</PackagePath>
-      <Modified>2012-11-06T02:41:57.263</Modified>
+    <AppxPackagedFile Include="C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Windows\images\Clock.png">
+      <PackagePath>images\Clock.png</PackagePath>
+      <Modified>2012-11-06T02:26:45.873</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Windows\images\Notepad.png">
       <PackagePath>images\Notepad.png</PackagePath>
       <Modified>2012-11-03T03:42:01.406</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Windows\images\Services.png">
+      <PackagePath>images\Services.png</PackagePath>
+      <Modified>2012-11-07T02:55:35.298</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Windows\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
@@ -82,11 +86,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Shared\pages\home\home.html">
       <PackagePath>pages\home\home.html</PackagePath>
-      <Modified>2015-04-10T22:30:07.994</Modified>
+      <Modified>2015-04-16T20:33:07.455</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Shared\pages\list\list.html">
       <PackagePath>pages\list\list.html</PackagePath>
       <Modified>2015-04-11T18:36:29.196</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Shared\pages\today\today.html">
+      <PackagePath>pages\today\today.html</PackagePath>
+      <Modified>2015-04-16T20:32:14.286</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Shared\js\moment.min.js">
       <PackagePath>js\moment.min.js</PackagePath>
@@ -98,7 +106,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Shared\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2015-04-12T02:39:47.917</Modified>
+      <Modified>2015-04-16T20:31:11.828</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Shared\js\pikaday.js">
       <PackagePath>js\pikaday.js</PackagePath>
@@ -110,11 +118,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Shared\pages\list\list.js">
       <PackagePath>pages\list\list.js</PackagePath>
-      <Modified>2015-04-12T02:40:02.582</Modified>
+      <Modified>2015-04-16T20:31:11.830</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Shared\pages\today\today.js">
+      <PackagePath>pages\today\today.js</PackagePath>
+      <Modified>2015-04-16T20:32:17.487</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Windows\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-04-11T16:56:12.714</Modified>
+      <Modified>2015-04-16T20:33:09.500</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
