@@ -16,5 +16,7 @@
     <Content Include="$(MSBuildThisFileDirectory)pages\home\home.js" />
     <Content Include="$(MSBuildThisFileDirectory)pages\list\list.html" />
     <Content Include="$(MSBuildThisFileDirectory)pages\list\list.js" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\today\today.html" />
+    <Content Include="$(MSBuildThisFileDirectory)pages\today\today.js" />
   </ItemGroup>
 </Project>

@@ -8,6 +8,8 @@ pages\home\home.html
 pages\home\home.js
 pages\list\list.html
 pages\list\list.js
+pages\today\today.html
+pages\today\today.js
 css\default.css
 default.html
 images\Configure alt 3.png
@@ -19,3 +21,4 @@ images\splashscreen.png
 images\storelogo.png
 pages\home\home.css
 pages\list\list.css
+pages\today\today.css
