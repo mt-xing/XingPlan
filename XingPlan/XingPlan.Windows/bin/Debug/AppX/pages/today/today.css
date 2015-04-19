@@ -30,3 +30,21 @@
 		-ms-grid-row: 2;
 		height: 100%;
 	}
+
+
+
+
+#MasterList {
+	padding-left: 0;
+}
+#MasterList li {
+	display: block;
+	padding: 10px;
+}
+	#MasterList li:nth-child(odd) {
+		background: grey;
+	}
+	#MasterList li:nth-child(even) {
+		background: lightgrey;
+		color:black;
+	}

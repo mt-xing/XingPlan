@@ -34,11 +34,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Windows\pages\list\list.css">
       <PackagePath>pages\list\list.css</PackagePath>
-      <Modified>2015-04-11T18:33:44.081</Modified>
+      <Modified>2015-04-19T02:31:08.973</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Windows\pages\today\today.css">
       <PackagePath>pages\today\today.css</PackagePath>
-      <Modified>2015-04-16T20:32:19.637</Modified>
+      <Modified>2015-04-19T02:32:30.474</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Shared\js\pikaday.css">
       <PackagePath>js\pikaday.css</PackagePath>
@@ -86,15 +86,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Shared\pages\home\home.html">
       <PackagePath>pages\home\home.html</PackagePath>
-      <Modified>2015-04-16T20:33:07.455</Modified>
+      <Modified>2015-04-19T02:08:31.749</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Shared\pages\list\list.html">
       <PackagePath>pages\list\list.html</PackagePath>
-      <Modified>2015-04-11T18:36:29.196</Modified>
+      <Modified>2015-04-19T02:36:16.021</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Shared\pages\today\today.html">
       <PackagePath>pages\today\today.html</PackagePath>
-      <Modified>2015-04-16T20:32:14.286</Modified>
+      <Modified>2015-04-19T02:36:24.056</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Shared\js\moment.min.js">
       <PackagePath>js\moment.min.js</PackagePath>
@@ -118,11 +118,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Shared\pages\list\list.js">
       <PackagePath>pages\list\list.js</PackagePath>
-      <Modified>2015-04-16T20:31:11.830</Modified>
+      <Modified>2015-04-19T02:44:58.859</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Shared\pages\today\today.js">
       <PackagePath>pages\today\today.js</PackagePath>
-      <Modified>2015-04-16T20:32:17.487</Modified>
+      <Modified>2015-04-19T02:41:13.510</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mt_xi_000\Documents\Projects\Programs\Visual Studio 2013\Projects\XingPlan\XingPlan\XingPlan.Windows\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>

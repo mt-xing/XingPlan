@@ -118,16 +118,23 @@
 	//Manipulating the Display
 	function OpenInfo(e) {
 		for (var i = 0; i < AllTasks.length; i++) {
-			WinJS.UI.Animation.pointerUp(document.getElementById("MainList").getElementsByTagName("LI")[i]).done();
+			document.getElementById("MainList").getElementsByTagName("LI")[i].style.color = "";
+			document.getElementById("MainList").getElementsByTagName("LI")[i].style.background = "";
 		}
 
 		var TargetHolder;
-		if (e.target.tagName == "INPUT") {
+		if (e.target.tagName == "INPUT" || e.target.tagName == "SPAN") {
 			TargetHolder = e.target.parentElement;
 		} else {
 			TargetHolder = e.target;
 		}
-		WinJS.UI.Animation.pointerDown(TargetHolder).done();
+		WinJS.UI.Animation.pointerDown(TargetHolder).done(
+			function () {
+				WinJS.UI.Animation.pointerUp(TargetHolder).done();
+			});
+
+		TargetHolder.style.background = "black";
+		TargetHolder.style.color = "white";
 		var el = AllTasks[getElementIndex(TargetHolder)];
 		document.getElementById("CDue").value = moment(el.dueDate).format("dddd, MMMM Do, YYYY");
 		document.getElementById("CShould").value = moment(el.shouldDate).format("dddd, MMMM Do, YYYY");
